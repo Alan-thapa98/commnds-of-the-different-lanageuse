@@ -1,0 +1,35 @@
+cd 
+cd..
+cd/
+cls
+systeminfo
+time
+date
+dir
+dir /ad
+dir /?
+------ order and onodrder -------
+dir /ON
+dir /O-N
+------ buyetime-------
+dir /O-D
+------ to find all the dir-------
+dir /S
+dir /P
+------ while cards -------
+**** to watch extenction ****
+dir /B *.*
+dir /B *.c
+dir /B *.html
+dir /B *.png
+---- to del ---
+rmdir name /s /q
+
+---- to create file ------
+
+echo > hello.html
+echo > demo.html && type demo.html
+
+
+---- copy--
+xcopy dir to and dir 

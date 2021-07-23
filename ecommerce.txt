@@ -1,0 +1,9 @@
+    - Create model Cart
+    - Create model Category
+    - Create model Product
+    - Create model ProductImage
+    - Create model Order
+    - Create model Customer
+    - Create model CartProduct
+    - Add field customer to cart
+    - Create model Admin

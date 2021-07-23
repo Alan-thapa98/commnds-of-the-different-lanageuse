@@ -1,0 +1,80 @@
+pip install stripe
+pip install crum 
+pip install psycopg2
+pip install  ckeditor
+pip install django-allauth
+
+
+responsive-landing-page-islands-travel-main ?
+how to give border in the active class of the semantic ui framework ?
+how to make pic on center like facebook ?
+How to Make a Navbar Sidebar Menu Youtube Clone using HTML CSS and Javascript - Vertical Navigation 
+how to create tooltip in semantic ui ?
+
+
+
+
+
+Bill 4 you 
+django social network
+vigits : temaplates net
+
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.github.GithubOAuth2',
+
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+
+
+
+SOCIAL_AUTH_FACEBOOK_KEY = '565284834205523'  # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = 'c6b12784c9589a0b3bdfe33114a19688'  # App Secret 
+  path('oauth/', include('social_django.urls', namespace='social')),  # <-- here
+
+
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles', 
+
+    'social_django',  # <-- Here social-auth-app-django
+
+    'mysite.core',
+]
+
+
+MIDDLEWARE_CLASSES = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'social_django.middleware.SocialAuthExceptionMiddleware',  # <-- Here
+]
+
+ path('oauth/', include('social_django.urls', namespace='social')),  # <-- here
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.github.GithubOAuth2',
+
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = 'home'

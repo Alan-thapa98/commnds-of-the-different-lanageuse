@@ -1,0 +1,76 @@
+
+ Is the youtube that open on goole chrome and youtube app is different ?
+
+ How to create the app with python ?
+
+ how to create app with django ?
+
+ how to create a mobile app with python ?
+
+ how to create mobile app with django ?
+
+ how to apply skeleton on the website ?
+
+
+| Python Slack Bot Tutorial
+  https://youtu.be/b89pR5L4qZc |
+
+ what is aip ?
+
+
+
+
+different between charfield and textfiled .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ how to solve the resolove in the factors .
+ trigonomatery
+ Build a Spotify home page using tailwind.css
+ and Vue.js
+ -------------------------------
+ music
+ top, albums music and  play and latest
+ latest/new realse ,
+
+--------------------------------------
+
+ dhrag.com
+ trigonomatery
+ category page
+ flipcart landing page clone
+
+% icons to find in font awasone 
+skip_previous
+Playlist 
+song-details
+Now Playing
+more_horiz
+expand_more
+skip_previous
+play_arrow
+queue_music
+close
+
+
+
